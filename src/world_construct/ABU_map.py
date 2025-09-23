@@ -30,10 +30,10 @@ entity_list = [
     Polygon([(5,12),(5,11),(6,11),(6,12)],close=False,solid=False)
 ]
 #R2
-cat = Cat((1.4,11.6),radius=0.3,move_acceleration=3,friction=0.9,controllable=True)
+cat = Cat((1.4,11.6),radius=0.3,move_acceleration=3,friction=1,controllable=True)
 
 for i in entity_list:
     map.add_entity(i)
 
 map.add_entity(cat)
-map.start_simulation(interval=1)
+map.start_simulation(interval=0.0)
