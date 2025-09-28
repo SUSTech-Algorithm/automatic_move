@@ -1,0 +1,17 @@
+[0.663s] Invoking command in '/home/jienan/automatic_move/build/automove_engine': PYTHONPATH=/home/jienan/automatic_move/build/automove_engine/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jienan/automatic_move/build/automove_engine/build --no-deps symlink_data
+[0.913s] running develop
+[1.080s] running egg_info
+[1.090s] writing automove_engine.egg-info/PKG-INFO
+[1.090s] writing dependency_links to automove_engine.egg-info/dependency_links.txt
+[1.090s] writing entry points to automove_engine.egg-info/entry_points.txt
+[1.090s] writing requirements to automove_engine.egg-info/requires.txt
+[1.090s] writing top-level names to automove_engine.egg-info/top_level.txt
+[1.116s] reading manifest file 'automove_engine.egg-info/SOURCES.txt'
+[1.117s] writing manifest file 'automove_engine.egg-info/SOURCES.txt'
+[1.162s] running build_ext
+[1.162s] Creating /home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages/automove-engine.egg-link (link to .)
+[1.163s] Installing quick_test script to /home/jienan/automatic_move/install/automove_engine/lib/automove_engine
+[1.163s] 
+[1.163s] Installed /home/jienan/automatic_move/build/automove_engine
+[1.163s] running symlink_data
+[1.186s] Invoked command in '/home/jienan/automatic_move/build/automove_engine' returned '0': PYTHONPATH=/home/jienan/automatic_move/build/automove_engine/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jienan/automatic_move/build/automove_engine/build --no-deps symlink_data

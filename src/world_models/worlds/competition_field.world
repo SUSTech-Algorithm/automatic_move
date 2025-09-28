@@ -7,22 +7,27 @@
 
     <model name="competition_field">
       <static>true</static>
-      <pose>-10 -10 0 0 0 0</pose>
+      <pose>-6.1 -6.1 0 0 0 0</pose>
 
       <link name="link_0">
         <visual name="visual_0">
           <geometry>
             <mesh>
-              <uri>model://competition_field/meshes/world.stl</uri>
-              <scale>0.002 0.002 0.002</scale>
+              <uri>model://competition_field/meshes/world_no_forest       cvxxx.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
         </visual>
         <collision name="collision_0">
           <geometry>
             <mesh>
-              <uri>model://competition_field/meshes/world.stl</uri>
-              <scale>0.002 0.002 0.002</scale>
+              <uri>model://competition_field/meshes/world_no_forest.stl</uri>
+              <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
         </collision>

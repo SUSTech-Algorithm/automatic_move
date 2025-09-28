@@ -1,0 +1,35 @@
+[0.011s] Invoking command in '/home/jienan/automatic_move/build/world_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jienan/automatic_move/build/world_models -- -j24 -l24
+[0.060s] Invoked command in '/home/jienan/automatic_move/build/world_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jienan/automatic_move/build/world_models -- -j24 -l24
+[0.068s] Invoking command in '/home/jienan/automatic_move/build/world_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jienan/automatic_move/build/world_models
+[0.074s] -- Install configuration: ""
+[0.074s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models
+[0.074s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/competition_field
+[0.074s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/competition_field/meshes
+[0.074s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/competition_field/meshes/world.stl
+[0.074s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/competition_field/model.config
+[0.074s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/competition_field/model.sdf
+[0.074s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/simple_robot
+[0.074s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/simple_robot/model.config
+[0.074s] -- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/simple_robot/robot.urdf
+[0.074s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models
+[0.074s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/competition_field_copy.world
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/competition_field.world
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/gazebo_launch.py
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/lib/world_models/test_robot_movement.py
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/ament_index/resource_index/package_run_dependencies/world_models
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/ament_index/resource_index/parent_prefix_path/world_models
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/environment/ament_prefix_path.sh
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/environment/ament_prefix_path.dsv
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/environment/path.sh
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/environment/path.dsv
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/local_setup.bash
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/local_setup.sh
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/local_setup.zsh
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/local_setup.dsv
+[0.075s] -- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/package.dsv
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/ament_index/resource_index/packages/world_models
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/cmake/world_modelsConfig.cmake
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/cmake/world_modelsConfig-version.cmake
+[0.075s] -- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models/package.xml
+[0.076s] Invoked command in '/home/jienan/automatic_move/build/world_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jienan/automatic_move/build/world_models
