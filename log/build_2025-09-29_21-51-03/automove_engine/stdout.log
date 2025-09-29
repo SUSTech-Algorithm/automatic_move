@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/automove_engine/automove_engine.egg-info
+writing ../../build/automove_engine/automove_engine.egg-info/PKG-INFO
+writing dependency_links to ../../build/automove_engine/automove_engine.egg-info/dependency_links.txt
+writing entry points to ../../build/automove_engine/automove_engine.egg-info/entry_points.txt
+writing requirements to ../../build/automove_engine/automove_engine.egg-info/requires.txt
+writing top-level names to ../../build/automove_engine/automove_engine.egg-info/top_level.txt
+writing manifest file '../../build/automove_engine/automove_engine.egg-info/SOURCES.txt'
+reading manifest file '../../build/automove_engine/automove_engine.egg-info/SOURCES.txt'
+writing manifest file '../../build/automove_engine/automove_engine.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jienan/automatic_move/build/automove_engine/build
+creating /home/jienan/automatic_move/build/automove_engine/build/lib
+creating /home/jienan/automatic_move/build/automove_engine/build/lib/automove_engine
+copying automove_engine/state.py -> /home/jienan/automatic_move/build/automove_engine/build/lib/automove_engine
+copying automove_engine/quick_test.py -> /home/jienan/automatic_move/build/automove_engine/build/lib/automove_engine
+copying automove_engine/states.py -> /home/jienan/automatic_move/build/automove_engine/build/lib/automove_engine
+copying automove_engine/__init__.py -> /home/jienan/automatic_move/build/automove_engine/build/lib/automove_engine
+copying automove_engine/test_states.py -> /home/jienan/automatic_move/build/automove_engine/build/lib/automove_engine
+copying automove_engine/state_manager.py -> /home/jienan/automatic_move/build/automove_engine/build/lib/automove_engine
+running install
+running install_lib
+creating /home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages/automove_engine
+copying /home/jienan/automatic_move/build/automove_engine/build/lib/automove_engine/state.py -> /home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages/automove_engine
+copying /home/jienan/automatic_move/build/automove_engine/build/lib/automove_engine/quick_test.py -> /home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages/automove_engine
+copying /home/jienan/automatic_move/build/automove_engine/build/lib/automove_engine/states.py -> /home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages/automove_engine
+copying /home/jienan/automatic_move/build/automove_engine/build/lib/automove_engine/__init__.py -> /home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages/automove_engine
+copying /home/jienan/automatic_move/build/automove_engine/build/lib/automove_engine/test_states.py -> /home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages/automove_engine
+copying /home/jienan/automatic_move/build/automove_engine/build/lib/automove_engine/state_manager.py -> /home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages/automove_engine
+byte-compiling /home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages/automove_engine/state.py to state.cpython-310.pyc
+byte-compiling /home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages/automove_engine/quick_test.py to quick_test.cpython-310.pyc
+byte-compiling /home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages/automove_engine/states.py to states.cpython-310.pyc
+byte-compiling /home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages/automove_engine/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages/automove_engine/test_states.py to test_states.cpython-310.pyc
+byte-compiling /home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages/automove_engine/state_manager.py to state_manager.cpython-310.pyc
+running install_data
+creating /home/jienan/automatic_move/install/automove_engine/share/ament_index
+creating /home/jienan/automatic_move/install/automove_engine/share/ament_index/resource_index
+creating /home/jienan/automatic_move/install/automove_engine/share/ament_index/resource_index/packages
+copying resource/automove_engine -> /home/jienan/automatic_move/install/automove_engine/share/ament_index/resource_index/packages
+copying package.xml -> /home/jienan/automatic_move/install/automove_engine/share/automove_engine
+running install_egg_info
+Copying ../../build/automove_engine/automove_engine.egg-info to /home/jienan/automatic_move/install/automove_engine/lib/python3.10/site-packages/automove_engine-0.0.0-py3.10.egg-info
+running install_scripts
+Installing quick_test script to /home/jienan/automatic_move/install/automove_engine/lib/automove_engine
+writing list of installed files to '/home/jienan/automatic_move/build/automove_engine/install.log'

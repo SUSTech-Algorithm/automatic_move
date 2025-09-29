@@ -13,7 +13,7 @@
         <visual name="visual_0">
           <geometry>
             <mesh>
-              <uri>model://competition_field/meshes/world_no_forest       cvxxx.stl</uri>
+              <uri>model://competition_field/meshes/world_no_forest.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>

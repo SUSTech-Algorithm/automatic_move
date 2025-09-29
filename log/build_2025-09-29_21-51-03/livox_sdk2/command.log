@@ -1,0 +1,3 @@
+Invoking command in '/home/jienan/automatic_move/build/livox_sdk2': /usr/bin/cmake /home/jienan/automatic_move/src/Livox-SDK2 -DCMAKE_INSTALL_PREFIX=/home/jienan/automatic_move/install/livox_sdk2
+Invoked command in '/home/jienan/automatic_move/build/livox_sdk2' returned '0': /usr/bin/cmake /home/jienan/automatic_move/src/Livox-SDK2 -DCMAKE_INSTALL_PREFIX=/home/jienan/automatic_move/install/livox_sdk2
+Invoking command in '/home/jienan/automatic_move/build/livox_sdk2': /usr/bin/cmake --build /home/jienan/automatic_move/build/livox_sdk2 -- -j24 -l24
