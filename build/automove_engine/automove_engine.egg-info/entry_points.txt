@@ -1,2 +1,0 @@
-[console_scripts]
-quick_test = automove_engine.quick_test:main
