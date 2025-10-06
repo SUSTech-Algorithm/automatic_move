@@ -3,7 +3,8 @@
 ## gazebo
 好像突然可以将solidworks的模型导入了。替换模型的时候记得让solidworks导出.stl文件
 
-感觉唯一需要做的就是：需要将模型路径手动导入$GAZEBO_MODEL_PATH **当然，前提是你把gazebo安装了**``` .bashrc
+感觉唯一需要做的就是：需要将模型路径手动导入`GAZEBO_MODEL_PATH` **当然，前提是你把gazebo安装了**
+``` .bashrc
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/automatic_move/src/world_models/models
 ```
 
@@ -52,13 +53,13 @@ To add a new state:
 4. Use the state in transitions as needed
 
 
-MID 360 
+## MID 360 
 
 https://github.com/Livox-SDK/Livox-SDK2/tree/master
 https://github.com/Livox-SDK/livox_ros_driver2?tab=readme-ov-file
 https://github.com/LCAS/livox_laser_simulation_ros2
 
-Fastlio 安装
+## Fastlio 安装
 ```
     cd <ros2_ws>/src # cd into a ros2 workspace folder
     git clone https://github.com/Ericsii/FAST_LIO_ROS2.git --recursive
