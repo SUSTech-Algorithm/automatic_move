@@ -57,3 +57,15 @@ MID 360
 https://github.com/Livox-SDK/Livox-SDK2/tree/master
 https://github.com/Livox-SDK/livox_ros_driver2?tab=readme-ov-file
 https://github.com/LCAS/livox_laser_simulation_ros2
+
+Fastlio 安装
+```
+    cd <ros2_ws>/src # cd into a ros2 workspace folder
+    git clone https://github.com/Ericsii/FAST_LIO_ROS2.git --recursive
+    cd ..
+    rosdep install --from-paths src --ignore-src -y
+    colcon build --symlink-install
+    . ./install/setup.bash # use setup.zsh if use zsh
+```
+**Remember to source the livox_ros_driver before build**
+可能会出现报错

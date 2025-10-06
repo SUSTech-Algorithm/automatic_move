@@ -2,7 +2,7 @@ import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
-from launch.substitutions import LaunchConfiguration
+from launch.substitutions import LaunchConfiguration, Command # ⭐ 引入 Command ⭐
 from launch_ros.actions import Node
 from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
@@ -10,11 +10,23 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 def generate_launch_description():
 
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
+    
+    # ⭐ 你的机器人描述包名 (必须和实际的包名一致) ⭐
+    robot_pkg_name = 'world_models' 
 
     # 获取你的模型的路径
-    pkg_world_models = get_package_share_directory('world_models')
+    pkg_world_models = get_package_share_directory(robot_pkg_name)
     world_file_path = os.path.join(
         pkg_world_models, 'competition_field.world')
+    
+    # ⭐ 定义 Xacro 文件路径 ⭐
+    robot_xacro_file = os.path.join(
+        pkg_world_models, 'simple_robot', 'robot.urdf.xacro') # ⭐ 更改为 .urdf.xacro ⭐
+
+    # ⭐ 1. Xacro 转 URDF ⭐
+    # 使用 Command 来执行 xacro 预处理器
+    robot_description = Command(['xacro ', robot_xacro_file])
+
 
     # 声明 launch 参数
     world_file_arg = DeclareLaunchArgument(
@@ -35,7 +47,7 @@ def generate_launch_description():
 
     robot_z_arg = DeclareLaunchArgument(
         'robot_z',
-        default_value='0.4',
+        default_value='0.1',
         description='Initial z position of the robot')
 
     robot_roll_arg = DeclareLaunchArgument(
@@ -67,14 +79,23 @@ def generate_launch_description():
             os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')
         )
     )
+    
+    # ⭐ 2. 启动 Robot State Publisher 节点来发布模型状态 (TF) ⭐
+    node_robot_state_publisher = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        output='screen',
+        parameters=[{'robot_description': robot_description}], # 传递 Xacro 转换后的 URDF
+    )
 
-    # 添加机器人模型到Gazebo
+
+    # ⭐ 3. 添加机器人模型到 Gazebo (从 ROS 话题加载) ⭐
     spawn_robot = Node(
         package='gazebo_ros',
         executable='spawn_entity.py',
         arguments=[
             '-entity', 'simple_robot',
-            '-file', os.path.join(pkg_world_models, 'simple_robot', 'robot.urdf'),
+            '-topic', 'robot_description', # ⭐ 从 /robot_description 话题加载模型 ⭐
             '-x', LaunchConfiguration('robot_x'),
             '-y', LaunchConfiguration('robot_y'),
             '-z', LaunchConfiguration('robot_z'),
@@ -95,5 +116,6 @@ def generate_launch_description():
         robot_yaw_arg,
         gzserver_cmd,
         gzclient_cmd,
+        node_robot_state_publisher, # ⭐ RSP 必须在 spawn_robot 之前启动 ⭐
         spawn_robot
     ])
