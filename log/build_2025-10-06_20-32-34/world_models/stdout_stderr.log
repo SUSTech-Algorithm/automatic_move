@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    HUMBLE_ROS
+    ROS_EDITION
+
+[0m
+-- Build files have been written to: /home/jienan/automatic_move/build/world_models
+-- Install configuration: ""
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/competition_field
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/competition_field/meshes
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/competition_field/meshes/world_no_forest.stl
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/competition_field/meshes/world.stl
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/competition_field/model.config
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/competition_field/model.sdf
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/simple_robot
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/simple_robot/robot.urdf.xacro
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/simple_robot/model.config
+-- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/competition_field_copy.world
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/competition_field.world
+-- Up-to-date: /home/jienan/automatic_move/install/world_models/share/world_models
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/gazebo_launch.py
+-- Installing: /home/jienan/automatic_move/install/world_models/lib/world_models/test_robot_movement.py
+-- Installing: /home/jienan/automatic_move/install/world_models/share/ament_index/resource_index/package_run_dependencies/world_models
+-- Installing: /home/jienan/automatic_move/install/world_models/share/ament_index/resource_index/parent_prefix_path/world_models
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/environment/ament_prefix_path.sh
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/environment/ament_prefix_path.dsv
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/environment/path.sh
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/environment/path.dsv
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/local_setup.bash
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/local_setup.sh
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/local_setup.zsh
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/local_setup.dsv
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/package.dsv
+-- Installing: /home/jienan/automatic_move/install/world_models/share/ament_index/resource_index/packages/world_models
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/cmake/world_modelsConfig.cmake
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/cmake/world_modelsConfig-version.cmake
+-- Installing: /home/jienan/automatic_move/install/world_models/share/world_models/package.xml

@@ -1,0 +1,253 @@
+[0.007s] Invoking command in '/home/jienan/automatic_move/build/ros2_livox_simulation': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jienan/automatic_move/src/livox_laser_simulation_ros2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jienan/automatic_move/install/ros2_livox_simulation
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.100s] -- The CXX compiler identification is GNU 11.4.0
+[0.104s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.176s] -- Detecting C compile features
+[0.176s] -- Detecting C compile features - done
+[0.178s] -- Detecting CXX compiler ABI info
+[0.260s] -- Detecting CXX compiler ABI info - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.266s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.494s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.545s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.567s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.569s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.573s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.588s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.610s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.611s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.668s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.687s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.711s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.716s] -- Looking for pthread.h
+[0.767s] -- Looking for pthread.h - found
+[0.767s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.816s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.817s] -- Found Threads: TRUE  
+[0.844s] -- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[0.848s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.849s] -- Checking for module 'bullet>=2.82'
+[0.859s] --   Found bullet, version 3.05
+[0.947s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.993s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.009s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.025s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.035s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.038s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.041s] -- Searching for dependencies of ignition-math6
+[1.042s] -- Looking for OGRE...
+[1.042s] -- OGRE_PREFIX_WATCH changed.
+[1.045s] -- Checking for module 'OGRE'
+[1.055s] --   Found OGRE, version 1.9.0
+[1.082s] -- Found Ogre Ghadamon (1.9.0)
+[1.089s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.096s] -- Looking for OGRE_Paging...
+[1.100s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.100s] -- Looking for OGRE_Terrain...
+[1.102s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.103s] -- Looking for OGRE_Property...
+[1.105s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.105s] -- Looking for OGRE_RTShaderSystem...
+[1.108s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.108s] -- Looking for OGRE_Volume...
+[1.111s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.112s] -- Looking for OGRE_Overlay...
+[1.114s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.176s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.177s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.177s] -- Searching for dependencies of ignition-transport8
+[1.188s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.194s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.198s] -- Checking for module 'libzmq >= 4'
+[1.208s] --   Found libzmq , version 4.3.4
+[1.256s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.260s] -- Checking for module 'uuid'
+[1.270s] --   Found uuid, version 2.37.2
+[1.308s] -- Found UUID: TRUE  
+[1.311s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.312s] -- Searching for dependencies of ignition-msgs5
+[1.331s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.334s] -- Checking for module 'tinyxml2'
+[1.345s] --   Found tinyxml2, version 9.0.0
+[1.371s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.373s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.373s] -- Searching for dependencies of ignition-common3
+[1.373s] -- Looking for dlfcn.h - found
+[1.374s] -- Looking for libdl - found
+[1.376s] -- Found DL: TRUE  
+[1.384s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.384s] -- Searching for <ignition-common3> component [graphics]
+[1.385s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.386s] -- Searching for dependencies of ignition-common3-graphics
+[1.386s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.388s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.388s] -- Searching for dependencies of ignition-fuel_tools4
+[1.464s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.472s] -- Checking for module 'jsoncpp'
+[1.481s] --   Found jsoncpp, version 1.9.5
+[1.506s] -- Found JSONCPP: TRUE  
+[1.509s] -- Checking for module 'libzip'
+[1.519s] --   Found libzip, version 1.7.3
+[1.547s] -- Found ZIP: TRUE  
+[1.547s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.548s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.549s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.552s] -- Gazebo version: 11.10
+[1.553s] -- Checking for module 'tbb'
+[1.573s] --   Found tbb, version 2021.5.0
+[1.624s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.630s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.654s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.708s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.713s] -- Found livox_ros_driver2: 1.0.0 (/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[1.739s] -- Checking for module 'eigen3'
+[1.749s] --   Found eigen3, version 3.4.0
+[1.789s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.789s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.809s] -- Checking for module 'flann'
+[1.820s] --   Found flann, version 1.9.1
+[1.867s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.868s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.623s] -- Checking for module 'libusb-1.0'
+[2.633s] --   Found libusb-1.0, version 1.0.25
+[2.663s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.664s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.706s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.803s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.809s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.814s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.907s] -- Found Qhull version 8.0.2
+[3.007s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.100s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.101s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.101s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.102s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.103s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.103s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.103s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.104s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.104s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.105s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.105s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.106s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.107s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.107s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.108s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.108s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.109s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.110s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.111s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.111s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.112s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.112s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.112s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.112s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.113s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.123s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono 
+[3.128s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.290s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.292s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.292s] -- Configured cppcheck include dirs: /home/jienan/automatic_move/src/livox_laser_simulation_ros2/include
+[3.292s] -- Configured cppcheck exclude dirs and/or files: 
+[3.293s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.294s] -- Configured cpplint exclude dirs and/or files: 
+[3.294s] -- Added test 'lint_cmake' to check CMake code style
+[3.296s] -- Added test 'uncrustify' to check C / C++ code style
+[3.296s] -- Configured uncrustify additional arguments: 
+[3.296s] -- Added test 'xmllint' to check XML markup files
+[3.297s] -- Configuring done
+[3.311s] -- Generating done
+[3.312s] [33mCMake Warning:
+[3.312s]   Manually-specified variables were not used by the project:
+[3.312s] 
+[3.312s]     HUMBLE_ROS
+[3.312s]     ROS_EDITION
+[3.312s] 
+[3.312s] [0m
+[3.315s] -- Build files have been written to: /home/jienan/automatic_move/build/ros2_livox_simulation
+[3.329s] Invoked command in '/home/jienan/automatic_move/build/ros2_livox_simulation' returned '0': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jienan/automatic_move/src/livox_laser_simulation_ros2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jienan/automatic_move/install/ros2_livox_simulation
+[3.330s] Invoking command in '/home/jienan/automatic_move/build/ros2_livox_simulation': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jienan/automatic_move/build/ros2_livox_simulation -- -j24 -l24
+[3.373s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_points_plugin.cpp.o[0m
+[3.374s] [ 66%] [32mBuilding CXX object CMakeFiles/ros2_livox.dir/src/livox_ode_multiray_shape.cpp.o[0m
+[5.035s] In file included from [01m[K/home/jienan/automatic_move/src/livox_laser_simulation_ros2/include/ros2_livox/livox_points_plugin.h:14[m[K,
+[5.035s]                  from [01m[K/home/jienan/automatic_move/src/livox_laser_simulation_ros2/src/livox_points_plugin.cpp:12[m[K:
+[5.035s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp:47:6:[m[K [01;35m[Kwarning: [m[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[5.035s]    47 | #    [01;35m[Kwarning[m[K POINT_CLOUD_DEPRECATION_MESSAGE
+[5.035s]       |      [01;35m[K^~~~~~~[m[K
+[7.238s] [01m[K/home/jienan/automatic_move/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::physics::LivoxOdeMultiRayShape::Init()[m[K’:
+[7.238s] [01m[K/home/jienan/automatic_move/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:191:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KyawAngle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.238s]   191 |     double [01;35m[KyawAngle[m[K, pitchAngle;
+[7.238s]       |            [01;35m[K^~~~~~~~[m[K
+[7.238s] [01m[K/home/jienan/automatic_move/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:191:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KpitchAngle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.238s]   191 |     double yawAngle, [01;35m[KpitchAngle[m[K;
+[7.238s]       |                      [01;35m[K^~~~~~~~~~[m[K
+[7.238s] [01m[K/home/jienan/automatic_move/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:193:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KyDiff[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[7.238s]   193 |     double [01;35m[KyDiff[m[K;
+[7.238s]       |            [01;35m[K^~~~~[m[K
+[7.238s] [01m[K/home/jienan/automatic_move/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:195:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KhorzSamples[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[7.238s]   195 |     int [01;35m[KhorzSamples[m[K = 1;
+[7.238s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[7.238s] [01m[K/home/jienan/automatic_move/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:198:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KpDiff[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[7.239s]   198 |     double [01;35m[KpDiff[m[K = 0;
+[7.239s]       |            [01;35m[K^~~~~[m[K
+[7.239s] [01m[K/home/jienan/automatic_move/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:199:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KvertSamples[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[7.239s]   199 |     int [01;35m[KvertSamples[m[K = 1;
+[7.239s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[7.239s] [01m[K/home/jienan/automatic_move/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:203:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KminRange[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[7.239s]   203 |     double [01;35m[KminRange[m[K, maxRange;
+[7.239s]       |            [01;35m[K^~~~~~~~[m[K
+[7.239s] [01m[K/home/jienan/automatic_move/src/livox_laser_simulation_ros2/src/livox_ode_multiray_shape.cpp:203:22:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KmaxRange[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[7.239s]   203 |     double minRange, [01;35m[KmaxRange[m[K;
+[7.239s]       |                      [01;35m[K^~~~~~~~[m[K
+[12.437s] [100%] [32m[1mLinking CXX shared library libros2_livox.so[0m
+[12.914s] [100%] Built target ros2_livox
+[12.922s] Invoked command in '/home/jienan/automatic_move/build/ros2_livox_simulation' returned '0': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jienan/automatic_move/build/ros2_livox_simulation -- -j24 -l24
+[12.923s] Invoking command in '/home/jienan/automatic_move/build/ros2_livox_simulation': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jienan/automatic_move/build/ros2_livox_simulation
+[12.929s] -- Install configuration: ""
+[12.929s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/include
+[12.929s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/include/ros2_livox
+[12.929s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/include/ros2_livox/csv_reader.hpp
+[12.929s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/include/ros2_livox/livox_ode_multiray_shape.h
+[12.929s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/include/ros2_livox/livox_points_plugin.h
+[12.929s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/lib/libros2_livox.so
+[12.931s] -- Set runtime path of "/home/jienan/automatic_move/install/ros2_livox_simulation/lib/libros2_livox.so" to ""
+[12.931s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.sh
+[12.931s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.dsv
+[12.931s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid40.csv
+[12.938s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid70.csv
+[12.944s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid360.csv
+[12.952s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/tele.csv
+[12.968s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/horizon.csv
+[12.985s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/HAP.csv
+[12.997s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/avia.csv
+[13.014s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid40.xacro
+[13.014s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid70.xacro
+[13.014s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid360.xacro
+[13.014s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/tele.xacro
+[13.014s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/horizon.xacro
+[13.014s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/HAP.xacro
+[13.014s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/avia.xacro
+[13.014s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/meshes
+[13.014s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/meshes/mid-360-scaled.dae
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ament_index/resource_index/package_run_dependencies/ros2_livox_simulation
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ament_index/resource_index/parent_prefix_path/ros2_livox_simulation
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.sh
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.dsv
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.sh
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.dsv
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.bash
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.sh
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.zsh
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.dsv
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/package.dsv
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ament_index/resource_index/packages/ros2_livox_simulation
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ament_cmake_export_libraries-extras.cmake
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig.cmake
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig-version.cmake
+[13.017s] -- Installing: /home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/package.xml
+[13.019s] Invoked command in '/home/jienan/automatic_move/build/ros2_livox_simulation' returned '0': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jienan/automatic_move/build/ros2_livox_simulation

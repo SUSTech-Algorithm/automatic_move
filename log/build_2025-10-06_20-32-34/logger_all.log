@@ -1,0 +1,431 @@
+[0.117s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']
+[0.117s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x73a3fb06f160>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73a3fb1b05e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73a3fb1b05e0>>)
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.140s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jienan/automatic_move'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO_ROS2) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/FAST_LIO_ROS2' with type 'ros.ament_cmake' and name 'fast_lio'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extension 'ros'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Livox-SDK2) by extension 'python'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Livox-SDK2' with type 'cmake' and name 'livox_sdk2'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_laser_simulation_ros2) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_laser_simulation_ros2' with type 'ros.ament_cmake' and name 'ros2_livox_simulation'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_models) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_models) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_models) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_models) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_models) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_models) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_models) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_models) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/world_models) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/world_models' with type 'ros.ament_cmake' and name 'world_models'
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.197s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jienan/automatic_move/install/world_models' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.197s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jienan/automatic_move/install/world_models' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.197s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/jienan/automatic_move/install
+[0.197s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/humble
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jienan/automatic_move/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jienan/automatic_move/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/jienan/automatic_move/src/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'livox_sdk2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jienan/automatic_move/build/livox_sdk2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jienan/automatic_move/install/livox_sdk2', 'merge_install': False, 'path': '/home/jienan/automatic_move/src/Livox-SDK2', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'world_models' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'world_models' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'world_models' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'world_models' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'world_models' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'world_models' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'world_models' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'world_models' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'world_models' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'world_models' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jienan/automatic_move/build/world_models', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jienan/automatic_move/install/world_models', 'merge_install': False, 'path': '/home/jienan/automatic_move/src/world_models', 'symlink_install': False, 'test_result_base': None}
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'fast_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jienan/automatic_move/build/fast_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jienan/automatic_move/install/fast_lio', 'merge_install': False, 'path': '/home/jienan/automatic_move/src/FAST_LIO_ROS2', 'symlink_install': False, 'test_result_base': None}
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_args' from command line to '['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble']'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_target' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.218s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_livox_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jienan/automatic_move/build/ros2_livox_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DROS_EDITION=ROS2', '-DHUMBLE_ROS=humble'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jienan/automatic_move/install/ros2_livox_simulation', 'merge_install': False, 'path': '/home/jienan/automatic_move/src/livox_laser_simulation_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.218s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.219s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.219s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jienan/automatic_move/src/livox_ros_driver2' with build type 'ament_cmake'
+[0.219s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jienan/automatic_move/src/livox_ros_driver2'
+[0.220s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.222s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jienan/automatic_move/src/Livox-SDK2'
+[0.222s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.222s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.224s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jienan/automatic_move/src/world_models' with build type 'ament_cmake'
+[0.224s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jienan/automatic_move/src/world_models'
+[0.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.224s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jienan/automatic_move/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jienan/automatic_move/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jienan/automatic_move/install/livox_ros_driver2
+[0.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jienan/automatic_move/build/livox_sdk2': /usr/bin/cmake /home/jienan/automatic_move/src/Livox-SDK2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jienan/automatic_move/install/livox_sdk2
+[0.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jienan/automatic_move/build/world_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jienan/automatic_move/src/world_models -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jienan/automatic_move/install/world_models
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jienan/automatic_move/build/livox_sdk2' returned '0': /usr/bin/cmake /home/jienan/automatic_move/src/Livox-SDK2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jienan/automatic_move/install/livox_sdk2
+[0.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jienan/automatic_move/build/livox_sdk2': /usr/bin/cmake --build /home/jienan/automatic_move/build/livox_sdk2 -- -j24 -l24
+[1.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jienan/automatic_move/build/world_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jienan/automatic_move/src/world_models -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jienan/automatic_move/install/world_models
+[1.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jienan/automatic_move/build/world_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jienan/automatic_move/build/world_models -- -j24 -l24
+[1.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jienan/automatic_move/build/world_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jienan/automatic_move/build/world_models -- -j24 -l24
+[1.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jienan/automatic_move/build/world_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jienan/automatic_move/build/world_models
+[1.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(world_models)
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/world_models' for CMake module files
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/world_models' for CMake config files
+[1.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jienan/automatic_move/build/world_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jienan/automatic_move/build/world_models
+[1.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('world_models', 'cmake_prefix_path')
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/world_models/share/world_models/hook/cmake_prefix_path.ps1'
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jienan/automatic_move/install/world_models/share/world_models/hook/cmake_prefix_path.dsv'
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/world_models/share/world_models/hook/cmake_prefix_path.sh'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/world_models/lib'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/world_models/bin'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/world_models/lib/pkgconfig/world_models.pc'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/world_models/lib/python3.10/site-packages'
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/world_models/bin'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/world_models/share/world_models/package.ps1'
+[1.290s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jienan/automatic_move/install/world_models/share/world_models/package.dsv'
+[1.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/world_models/share/world_models/package.sh'
+[1.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/world_models/share/world_models/package.bash'
+[1.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/world_models/share/world_models/package.zsh'
+[1.293s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jienan/automatic_move/install/world_models/share/colcon-core/packages/world_models)
+[1.298s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(world_models)
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/world_models' for CMake module files
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/world_models' for CMake config files
+[1.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('world_models', 'cmake_prefix_path')
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/world_models/share/world_models/hook/cmake_prefix_path.ps1'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jienan/automatic_move/install/world_models/share/world_models/hook/cmake_prefix_path.dsv'
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/world_models/share/world_models/hook/cmake_prefix_path.sh'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/world_models/lib'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/world_models/bin'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/world_models/lib/pkgconfig/world_models.pc'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/world_models/lib/python3.10/site-packages'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/world_models/bin'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/world_models/share/world_models/package.ps1'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jienan/automatic_move/install/world_models/share/world_models/package.dsv'
+[1.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/world_models/share/world_models/package.sh'
+[1.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/world_models/share/world_models/package.bash'
+[1.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/world_models/share/world_models/package.zsh'
+[1.307s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jienan/automatic_move/install/world_models/share/colcon-core/packages/world_models)
+[6.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jienan/automatic_move/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jienan/automatic_move/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jienan/automatic_move/install/livox_ros_driver2
+[6.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jienan/automatic_move/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jienan/automatic_move/build/livox_ros_driver2 -- -j24 -l24
+[7.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jienan/automatic_move/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/jienan/automatic_move/build/livox_sdk2 -- -j24 -l24
+[7.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jienan/automatic_move/build/livox_sdk2': /usr/bin/cmake --install /home/jienan/automatic_move/build/livox_sdk2
+[7.723s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_sdk2)
+[7.723s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_sdk2' for CMake module files
+[7.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jienan/automatic_move/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/jienan/automatic_move/build/livox_sdk2
+[7.724s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_sdk2' for CMake config files
+[7.724s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_sdk2/lib'
+[7.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_sdk2', 'ld_library_path_lib')
+[7.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.ps1'
+[7.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jienan/automatic_move/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.dsv'
+[7.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.sh'
+[7.726s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_sdk2/bin'
+[7.726s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_sdk2/lib/pkgconfig/livox_sdk2.pc'
+[7.727s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_sdk2/lib/python3.10/site-packages'
+[7.727s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_sdk2/bin'
+[7.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/livox_sdk2/share/livox_sdk2/package.ps1'
+[7.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jienan/automatic_move/install/livox_sdk2/share/livox_sdk2/package.dsv'
+[7.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/livox_sdk2/share/livox_sdk2/package.sh'
+[7.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/livox_sdk2/share/livox_sdk2/package.bash'
+[7.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/livox_sdk2/share/livox_sdk2/package.zsh'
+[7.730s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jienan/automatic_move/install/livox_sdk2/share/colcon-core/packages/livox_sdk2)
+[12.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jienan/automatic_move/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jienan/automatic_move/build/livox_ros_driver2 -- -j24 -l24
+[12.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jienan/automatic_move/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jienan/automatic_move/build/livox_ros_driver2
+[12.442s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[12.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jienan/automatic_move/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jienan/automatic_move/build/livox_ros_driver2
+[12.443s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_ros_driver2' for CMake module files
+[12.443s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_ros_driver2' for CMake config files
+[12.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[12.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[12.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[12.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[12.444s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_ros_driver2/lib'
+[12.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[12.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[12.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[12.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[12.445s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_ros_driver2/bin'
+[12.445s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[12.445s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_ros_driver2/lib/python3.10/site-packages'
+[12.445s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_ros_driver2/bin'
+[12.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[12.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[12.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[12.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[12.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[12.446s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jienan/automatic_move/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[12.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[12.447s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_ros_driver2' for CMake module files
+[12.447s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_ros_driver2' for CMake config files
+[12.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[12.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[12.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[12.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[12.448s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_ros_driver2/lib'
+[12.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[12.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[12.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[12.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[12.448s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_ros_driver2/bin'
+[12.448s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[12.449s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_ros_driver2/lib/python3.10/site-packages'
+[12.449s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/livox_ros_driver2/bin'
+[12.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[12.449s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[12.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[12.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[12.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[12.450s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jienan/automatic_move/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[12.450s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jienan/automatic_move/src/FAST_LIO_ROS2' with build type 'ament_cmake'
+[12.450s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jienan/automatic_move/src/FAST_LIO_ROS2'
+[12.450s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.452s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jienan/automatic_move/src/livox_laser_simulation_ros2' with build type 'ament_cmake'
+[12.452s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jienan/automatic_move/src/livox_laser_simulation_ros2'
+[12.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jienan/automatic_move/build/fast_lio': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jienan/automatic_move/src/FAST_LIO_ROS2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jienan/automatic_move/install/fast_lio
+[12.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jienan/automatic_move/build/ros2_livox_simulation': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jienan/automatic_move/src/livox_laser_simulation_ros2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jienan/automatic_move/install/ros2_livox_simulation
+[15.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jienan/automatic_move/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jienan/automatic_move/src/FAST_LIO_ROS2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jienan/automatic_move/install/fast_lio
+[15.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jienan/automatic_move/build/fast_lio': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jienan/automatic_move/build/fast_lio -- -j24 -l24
+[15.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jienan/automatic_move/build/ros2_livox_simulation' returned '0': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jienan/automatic_move/src/livox_laser_simulation_ros2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jienan/automatic_move/install/ros2_livox_simulation
+[15.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jienan/automatic_move/build/ros2_livox_simulation': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jienan/automatic_move/build/ros2_livox_simulation -- -j24 -l24
+[25.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jienan/automatic_move/build/ros2_livox_simulation' returned '0': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jienan/automatic_move/build/ros2_livox_simulation -- -j24 -l24
+[25.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jienan/automatic_move/build/ros2_livox_simulation': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jienan/automatic_move/build/ros2_livox_simulation
+[25.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_livox_simulation)
+[25.471s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/ros2_livox_simulation' for CMake module files
+[25.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jienan/automatic_move/build/ros2_livox_simulation' returned '0': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jienan/automatic_move/build/ros2_livox_simulation
+[25.471s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/ros2_livox_simulation' for CMake config files
+[25.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_livox_simulation', 'cmake_prefix_path')
+[25.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/cmake_prefix_path.ps1'
+[25.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/cmake_prefix_path.dsv'
+[25.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/cmake_prefix_path.sh'
+[25.472s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/ros2_livox_simulation/lib'
+[25.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_livox_simulation', 'ld_library_path_lib')
+[25.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/ld_library_path_lib.ps1'
+[25.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/ld_library_path_lib.dsv'
+[25.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/ld_library_path_lib.sh'
+[25.473s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/ros2_livox_simulation/bin'
+[25.473s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/ros2_livox_simulation/lib/pkgconfig/ros2_livox_simulation.pc'
+[25.473s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/ros2_livox_simulation/lib/python3.10/site-packages'
+[25.473s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/ros2_livox_simulation/bin'
+[25.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/package.ps1'
+[25.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/package.dsv'
+[25.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/package.sh'
+[25.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/package.bash'
+[25.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/package.zsh'
+[25.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jienan/automatic_move/install/ros2_livox_simulation/share/colcon-core/packages/ros2_livox_simulation)
+[25.474s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_livox_simulation)
+[25.475s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/ros2_livox_simulation' for CMake module files
+[25.475s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/ros2_livox_simulation' for CMake config files
+[25.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_livox_simulation', 'cmake_prefix_path')
+[25.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/cmake_prefix_path.ps1'
+[25.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/cmake_prefix_path.dsv'
+[25.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/cmake_prefix_path.sh'
+[25.476s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/ros2_livox_simulation/lib'
+[25.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_livox_simulation', 'ld_library_path_lib')
+[25.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/ld_library_path_lib.ps1'
+[25.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/ld_library_path_lib.dsv'
+[25.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/hook/ld_library_path_lib.sh'
+[25.476s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/ros2_livox_simulation/bin'
+[25.476s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/ros2_livox_simulation/lib/pkgconfig/ros2_livox_simulation.pc'
+[25.476s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/ros2_livox_simulation/lib/python3.10/site-packages'
+[25.477s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/ros2_livox_simulation/bin'
+[25.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/package.ps1'
+[25.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/package.dsv'
+[25.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/package.sh'
+[25.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/package.bash'
+[25.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/ros2_livox_simulation/share/ros2_livox_simulation/package.zsh'
+[25.479s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jienan/automatic_move/install/ros2_livox_simulation/share/colcon-core/packages/ros2_livox_simulation)
+[57.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jienan/automatic_move/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jienan/automatic_move/build/fast_lio -- -j24 -l24
+[57.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jienan/automatic_move/build/fast_lio': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jienan/automatic_move/build/fast_lio
+[57.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[57.776s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/fast_lio' for CMake module files
+[57.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jienan/automatic_move/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jienan/automatic_move/install/livox_ros_driver2:/home/jienan/automatic_move/install/world_models:/opt/ros/humble LD_LIBRARY_PATH=/home/jienan/automatic_move/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jienan/automatic_move/install/livox_sdk2/lib PYTHONPATH=/home/jienan/automatic_move/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jienan/automatic_move/build/fast_lio
+[57.776s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/fast_lio' for CMake config files
+[57.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[57.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[57.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[57.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[57.778s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/fast_lio/lib'
+[57.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[57.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[57.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[57.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[57.778s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/fast_lio/bin'
+[57.779s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[57.779s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/fast_lio/lib/python3.10/site-packages'
+[57.779s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/fast_lio/bin'
+[57.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/package.ps1'
+[57.779s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/package.dsv'
+[57.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/package.sh'
+[57.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/package.bash'
+[57.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/package.zsh'
+[57.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jienan/automatic_move/install/fast_lio/share/colcon-core/packages/fast_lio)
+[57.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[57.781s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/fast_lio' for CMake module files
+[57.781s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/fast_lio' for CMake config files
+[57.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[57.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[57.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[57.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[57.782s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/fast_lio/lib'
+[57.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[57.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[57.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[57.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[57.783s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/fast_lio/bin'
+[57.783s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[57.783s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/fast_lio/lib/python3.10/site-packages'
+[57.783s] Level 1:colcon.colcon_core.environment:checking '/home/jienan/automatic_move/install/fast_lio/bin'
+[57.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/package.ps1'
+[57.784s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/package.dsv'
+[57.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/package.sh'
+[57.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/package.bash'
+[57.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/jienan/automatic_move/install/fast_lio/share/fast_lio/package.zsh'
+[57.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jienan/automatic_move/install/fast_lio/share/colcon-core/packages/fast_lio)
+[57.785s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[57.785s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[57.785s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[57.785s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[57.788s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[57.788s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[57.788s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[57.795s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[57.796s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jienan/automatic_move/install/local_setup.ps1'
+[57.796s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jienan/automatic_move/install/_local_setup_util_ps1.py'
+[57.797s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jienan/automatic_move/install/setup.ps1'
+[57.798s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jienan/automatic_move/install/local_setup.sh'
+[57.798s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jienan/automatic_move/install/_local_setup_util_sh.py'
+[57.798s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jienan/automatic_move/install/setup.sh'
+[57.799s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jienan/automatic_move/install/local_setup.bash'
+[57.799s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jienan/automatic_move/install/setup.bash'
+[57.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jienan/automatic_move/install/local_setup.zsh'
+[57.800s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jienan/automatic_move/install/setup.zsh'

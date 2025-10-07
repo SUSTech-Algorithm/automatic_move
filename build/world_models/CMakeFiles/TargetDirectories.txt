@@ -1,0 +1,9 @@
+/home/jienan/automatic_move/build/world_models/CMakeFiles/uninstall.dir
+/home/jienan/automatic_move/build/world_models/CMakeFiles/world_models_uninstall.dir
+/home/jienan/automatic_move/build/world_models/CMakeFiles/test.dir
+/home/jienan/automatic_move/build/world_models/CMakeFiles/edit_cache.dir
+/home/jienan/automatic_move/build/world_models/CMakeFiles/rebuild_cache.dir
+/home/jienan/automatic_move/build/world_models/CMakeFiles/list_install_components.dir
+/home/jienan/automatic_move/build/world_models/CMakeFiles/install.dir
+/home/jienan/automatic_move/build/world_models/CMakeFiles/install/local.dir
+/home/jienan/automatic_move/build/world_models/CMakeFiles/install/strip.dir
