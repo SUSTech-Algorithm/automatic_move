@@ -94,14 +94,15 @@ def generate_launch_description():
         package='gazebo_ros',
         executable='spawn_entity.py',
         arguments=[
-            '-entity', 'simple_robot',
+            '-entity', 'simple_robot_v2',  # 使用不同的名字避免冲突
             '-topic', 'robot_description', # ⭐ 从 /robot_description 话题加载模型 ⭐
             '-x', LaunchConfiguration('robot_x'),
             '-y', LaunchConfiguration('robot_y'),
             '-z', LaunchConfiguration('robot_z'),
             '-R', LaunchConfiguration('robot_roll'),
             '-P', LaunchConfiguration('robot_pitch'),
-            '-Y', LaunchConfiguration('robot_yaw')
+            '-Y', LaunchConfiguration('robot_yaw'),
+            '--ros-args'  # 添加ROS参数以避免命名空间问题
         ],
         output='screen'
     )

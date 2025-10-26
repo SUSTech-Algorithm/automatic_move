@@ -9,7 +9,7 @@
 - [FAST_LIO_ROS2](https://github.com/Ericsii/FAST_LIO_ROS2): 轻量级、快速的激光雷达惯性里程计框架
 - [Livox-SDK2](https://github.com/Livox-SDK/Livox-SDK2): Livox 激光雷达官方 SDK
 - [livox_ros_driver2](https://github.com/Livox-SDK/livox_ros_driver2): Livox 激光雷达的 ROS2 驱动
-- [livox_laser_simulation_ros2](https://github.com/LCAS/livox_laser_simulation_ros2): 用于在 Gazebo 中模拟 Livox 激光雷达的 ROS2 包
+- [livox_gazebo_ros2_gpu_simulation](https://github.com/LCAS/livox_laser_simulation_ros2): 用于在 Gazebo 中模拟 Livox 激光雷达的 ROS2 包
 
 要克隆包含所有子模块的仓库，请使用以下命令：
 

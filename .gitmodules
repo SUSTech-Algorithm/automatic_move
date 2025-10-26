@@ -1,12 +1,3 @@
-[submodule "src/FAST_LIO_ROS2"]
-	path = src/FAST_LIO_ROS2
-	url = https://github.com/fjienan/FAST_LIO_ROS2.git
-[submodule "src/Livox-SDK2"]
-	path = src/Livox-SDK2
-	url = https://github.com/fjienan/Livox-SDK2.git
-[submodule "src/livox_ros_driver2"]
-	path = src/livox_ros_driver2
-	url = https://github.com/fjienan/livox_ros_driver2.git
-[submodule "src/livox_laser_simulation_ros2"]
-	path = src/livox_laser_simulation_ros2
-	url = https://github.com/fjienan/livox_laser_simulation_ros2.git
+[submodule "src/livox_gazebo_ros2_gpu_simulation"]
+	path = src/livox_gazebo_ros2_gpu_simulation
+	url = https://github.com/fjienan/livox_gazebo_ros2_gpu_simulation.git
